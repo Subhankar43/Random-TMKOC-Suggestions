@@ -6,7 +6,7 @@ Written BY  Vortx ..... Enjoy :)
 */
 
 // Its gonna load the video.json file
-fetch('video.json')
+fetch('https://cdn.jsdelivr.net/gh/Subhankar43/Random-TMKOC-Suggestions/video.json')
   .then(response => response.json())
   .then(videos => {
     const playBtn = document.getElementById('play-btn');
